@@ -21,5 +21,14 @@
     "enabled": true,
     "max_results": 5,
     "timeout": 10
+  },
+  "mcpServers": {
+    "web-search-fast": {
+      "type": "http",
+      "url": "https://ooooooooooooooosearch.wwwneo.com/mcp",
+      "headers": {
+        "Authorization": "Bearer wsm_zw7KB3a5HxwbDLj7Mv3W_hy1xizWKvH4Zw49QKsqGh8"
+      }
+    }
   }
 }
