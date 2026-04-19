@@ -1,0 +1,25 @@
+{
+  "workspace_root": "~/.claude/skills/xia-gao/runtime",
+  "default_isolation": "docker",
+  "default_port_range": [8000, 9000],
+  "max_repair_attempts": 3,
+  "health_check_timeout": 30,
+  "docker": {
+    "default_base_image": {
+      "python": "python:3.11-slim",
+      "node": "node:18-slim",
+      "go": "golang:1.21-alpine"
+    },
+    "network_mode": "bridge",
+    "restart_policy": "unless-stopped"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "[%(asctime)s] %(levelname)s: %(message)s"
+  },
+  "web_search": {
+    "enabled": true,
+    "max_results": 5,
+    "timeout": 10
+  }
+}
