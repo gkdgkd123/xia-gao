@@ -149,6 +149,14 @@ cat ~/.claude/skills/xia-gao/runtime/<deploy-id>/deploy.log
 
 如需修改行为，编辑 `SKILL.md` 中的逻辑即可。
 
+## 致谢
+
+本项目的联网搜索能力由以下公益服务提供支持：
+
+- **web-search-fast MCP 服务** — 由 [linux.do](https://linux.do) 论坛的 [@NeoJ](https://linux.do/u/NeoJ) 用户提供的公益搜索 MCP 服务
+
+感谢社区的无私贡献！
+
 ## License
 
 MIT License - 详见项目根目录 LICENSE 文件
