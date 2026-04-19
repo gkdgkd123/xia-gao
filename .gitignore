@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+Auto_deploy.log
+Auto_deploy_plan.md
+project-profile.json
+Cleanup.sh
+*.log
+
+# Xia-gao workspace cache
+.xia-gao/cache/
+.xia-gao/deployments/
+.xia-gao/logs/
+
+# Distribution
+*.tar.gz
+*.whl

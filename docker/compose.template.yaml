@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:${PORT:-3000}:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/workspace
+    labels:
+      - "xia-gao=true"
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 2G
